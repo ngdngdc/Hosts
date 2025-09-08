@@ -24,6 +24,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       # Runs a single command using the runners shell
       - name: Set up environment
         run: |
@@ -93,8 +98,16 @@ jobs:
 
           cat hosts
 
-      - name: Upload hosts file as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: hosts
-          path: hosts
+      - name: Commit hosts file to repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if git diff --quiet --exit-code hosts; then
+            echo "No changes to hosts file"
+            exit 0
+          fi
+
+          git add hosts
+          git commit -m "Update hosts file - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push

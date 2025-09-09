@@ -69,6 +69,24 @@ jobs:
             api-da.wixmp.com
             deviantart.net
             parastorage.com
+            # GROUP: Group4_Discord
+            cdn.discordapp.com
+            discordapp.com
+            discord.com
+            discord.gg
+            discord.app
+            updates.discord.com
+            media.discordapp.net
+            latency.discord.media
+            remote-auth-gateway.discord.gg
+            # GROUP: Group5_recaptcha
+            ajax.googleapis.com
+            gapis.geekzu.org
+            www.recaptcha.google.com
+            recaptcha.net
+            gstatic.com
+            gstatic.cn
+            google.com
         run: |
           echo "groups<<EOF" >> $GITHUB_OUTPUT
           echo "$DOMAIN_GROUPS" >> $GITHUB_OUTPUT

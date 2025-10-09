@@ -87,6 +87,11 @@ jobs:
             gstatic.com
             gstatic.cn
             google.com
+            # GROUP: Group6_BitCash
+            bitcash.jp
+            bs.nakanohito.jp
+            nakanohito.jp
+            cs.nakanohito.jp
         run: |
           echo "groups<<EOF" >> $GITHUB_OUTPUT
           echo "$DOMAIN_GROUPS" >> $GITHUB_OUTPUT

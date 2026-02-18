@@ -104,6 +104,9 @@ jobs:
             bs.nakanohito.jp
             nakanohito.jp
             cs.nakanohito.jp
+            # GROUP: Group7_JastUSA
+            jastusa.com
+            app.jastusa.com
         run: |
           echo "groups<<EOF" >> $GITHUB_OUTPUT
           echo "$DOMAIN_GROUPS" >> $GITHUB_OUTPUT

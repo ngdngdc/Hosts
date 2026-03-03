@@ -107,6 +107,20 @@ jobs:
             # GROUP: Group7_JastUSA
             jastusa.com
             app.jastusa.com
+            # GROUP: Group8_GitLab
+            gitlab.com
+            about.gitlab.com
+            new-sentry.gitlab.net
+            # GROUP: Group9_GitGud
+            gitgud.io
+            about.gitgud.io
+            cdn.boxicons.com
+            accounts.sapphire.moe
+            sapphire.moe
+            beam.sapphire.moe
+            umami.servers.moe
+            u.servers.moe
+            status.sapphire.moe
         run: |
           echo "groups<<EOF" >> $GITHUB_OUTPUT
           echo "$DOMAIN_GROUPS" >> $GITHUB_OUTPUT

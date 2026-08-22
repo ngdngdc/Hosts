@@ -93,6 +93,9 @@ jobs:
             media.discordapp.net
             latency.discord.media
             remote-auth-gateway.discord.gg
+            stable.dl2.discordapp.net
+            dl2.discordapp.net
+            discordapp.net
             # GROUP: Group5_recaptcha
             ajax.googleapis.com
             gapis.geekzu.org

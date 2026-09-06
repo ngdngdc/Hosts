@@ -1,0 +1,100 @@
+{
+    "Group1_DLsite": [
+        "login.dlsite.com",
+        "ssl.dlsite.com",
+        "www.dlsite.com",
+        "www.nijiyome.com",
+        "www.nijiyome.jp",
+        "download.dlsite.com",
+        "ci-en.dlsite.com",
+        "play.dlsite.com",
+        "dlsite.com",
+        "dlsite.jp",
+        "img.dlsite.jp",
+        "media.dlsite.com",
+        "ch.dlsite.com",
+        "chobit.cc",
+        "nijiyome.com",
+        "nijiyome.jp",
+        "trial.dlsite.com",
+        "media.ci-en.jp",
+        "ci-en.jp"
+    ],
+    "Group2_Itch.io": [
+        "i.ytimg.com",
+        "img.itch.zone",
+        "itch.io",
+        "static.itch.io",
+        "broth.itch.zone",
+        "itch.zone",
+        "cloudflarestorage.com"
+    ],
+    "Group3_Deviantart": [
+        "deviantart.com",
+        "www.deviantart.com",
+        "email.mg.deviantart.com",
+        "st.deviantart.net",
+        "a.deviantart.net",
+        "e.deviantart.net",
+        "i.deviantart.net",
+        "t00.deviantart.net",
+        "static.parastorage.com",
+        "api-da.wixmp.com",
+        "deviantart.net",
+        "parastorage.com"
+    ],
+    "Group4_Discord": [
+        "cdn.discordapp.com",
+        "discordapp.com",
+        "discord.com",
+        "discord.gg",
+        "discord.app",
+        "updates.discord.com",
+        "media.discordapp.net",
+        "latency.discord.media",
+        "remote-auth-gateway.discord.gg",
+        "stable.dl2.discordapp.net",
+        "dl2.discordapp.net",
+        "discordapp.net"
+    ],
+    "Group5_recaptcha": [
+        "ajax.googleapis.com",
+        "gapis.geekzu.org",
+        "www.recaptcha.google.com",
+        "recaptcha.net",
+        "gstatic.com",
+        "gstatic.cn",
+        "google.com"
+    ],
+    "Group6_BitCash": [
+        "bitcash.jp",
+        "bs.nakanohito.jp",
+        "nakanohito.jp",
+        "cs.nakanohito.jp"
+    ],
+    "Group7_JastStore": [
+        "jaststore.com",
+        "app.jaststore.com",
+        "gelbanana.jaststore.com",
+        "jast.moe",
+        "miyuki.jast.moe",
+        "cdn77.org",
+        "rsc.cdn77.org"
+    ],
+    "Group8_GitLab": [
+        "gitlab.com",
+        "about.gitlab.com",
+        "new-sentry.gitlab.net"
+    ],
+    "Group9_GitGud": [
+        "gitgud.io",
+        "about.gitgud.io",
+        "cdn.boxicons.com",
+        "accounts.sapphire.moe",
+        "sapphire.moe",
+        "beam.sapphire.moe",
+        "umami.servers.moe",
+        "u.servers.moe",
+        "status.sapphire.moe"
+    ]
+}

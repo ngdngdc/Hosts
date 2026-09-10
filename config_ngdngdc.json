@@ -634,6 +634,26 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "c10.patreonusercontent.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c13.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c14.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c5.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c8.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "camo.githubusercontent.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
@@ -986,6 +1006,10 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "pipelines.actions.githubusercontent.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
@@ -1131,6 +1155,10 @@
       "dns_mode": "prefer_ipv6"
     },
     "www.nijiyome.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.patreon.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },

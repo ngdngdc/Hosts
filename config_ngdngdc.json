@@ -1006,6 +1006,10 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "openrouter.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "parastorage.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

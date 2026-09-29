@@ -92,19 +92,16 @@
       "host": "20.207.73.82"
     },
     "api.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
+      "host": "20.207.73.85"
     },
     "codeload.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
+      "host": "20.207.73.88"
     },
     "uploads.github.com": {
       "host": "20.207.73.81"
     },
     "alive.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
+      "host": "140.82.112.26"
     },
     "*(github.io|.githubusercontent.com);(page|doc)s.github.com": {
       "host": "146.75.48.133"
@@ -550,35 +547,155 @@
     "*abs.twimg.com": {
       "mode": "tls-rf"
     },
+    "login.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ssl.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.nijiyome.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.nijiyome.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "download.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ci-en.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "play.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dlsite.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img.dlsite.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "media.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ch.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "chobit.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "nijiyome.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "nijiyome.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "trial.dlsite.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "media.ci-en.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ci-en.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i.ytimg.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img.itch.zone": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "itch.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "static.itch.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "broth.itch.zone": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "itch.zone": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docs.itch.zone": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docs.itch.ovh": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "itch.ovh": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cloudflarestorage.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "deviantart.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.deviantart.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "email.mg.deviantart.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "st.deviantart.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "a.deviantart.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "a5206c616d0f.w.hcaptcha.com": {
+    "e.deviantart.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "about.gitgud.io": {
+    "i.deviantart.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "about.gitlab.com": {
+    "t00.deviantart.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "account.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "accounts.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "accounts.sapphire.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ajax.googleapis.com": {
+    "static.parastorage.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -586,27 +703,59 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "api.hcaptcha.com": {
+    "deviantart.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "api.individual.githubcopilot.com": {
+    "parastorage.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "api.minecraftservices.com": {
+    "cdn.discordapp.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "api.mojang.com": {
+    "discordapp.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "api.steampowered.com": {
+    "discord.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "app.jaststore.com": {
+    "discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "discord.app": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "updates.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "media.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "latency.discord.media": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "remote-auth-gateway.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "stable.dl2.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dl2.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "discordapp.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -614,7 +763,383 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "blog.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "bugs.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "canary-api.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "canary.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "canary.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn-canary.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn-ptb.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "click.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "discord-attachments-uploads-prd.storage.googleapis.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "discordbot.nexusmods.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dl.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docs.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "feedback.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gateway-cf.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gateway-us-east1-b.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gateway-us-east1-c.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gateway-us-east1-d.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gateway.discord.gg": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i18n.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i18n.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "images-ext-1.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "images-ext-2.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "merch.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pax.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pax.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "printer.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "printer.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ptb.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ptb.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ptb.dl2.discordapp.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "safety.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "status.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "status.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "streamkit.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "streamkit.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "support-dev.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "support.discord.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "url7195.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "url9177.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "url9624.discordapp.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ajax.googleapis.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gapis.geekzu.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.recaptcha.google.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "recaptcha.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gstatic.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "google.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.recaptcha.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "a5206c616d0f.w.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "accounts.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "assets.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "d3019221e64a.w.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "hcaptcha-assets.ecosec.on.epicgames.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imgs.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imgs2.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imgs3.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "js.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "newassets.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.hcaptcha.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "bitcash.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "bs.nakanohito.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "nakanohito.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cs.nakanohito.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "jaststore.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "app.jaststore.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gelbanana.jaststore.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "jast.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "miyuki.jast.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn77.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "rsc.cdn77.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gitlab.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "about.gitlab.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "new-sentry.gitlab.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gitgud.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "about.gitgud.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn.boxicons.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "accounts.sapphire.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "sapphire.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "beam.sapphire.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "umami.servers.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "u.servers.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "status.sapphire.moe": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c14.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c13.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c8.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c5.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "patreon.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "c10.patreonusercontent.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "patreonusercontent.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "openrouter.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "account.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.mojang.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -622,7 +1147,87 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "auth.gog.com": {
+    "launcher.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "launchercontent.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "launchermeta.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "piston-data.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "piston-meta.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "redstone-launcher.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "sessionserver.mojang.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.minecraftservices.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "help.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "libraries.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "minecraft-api.arkoselabs.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "payments.realms.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pc.realms.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pocket.realms.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "realms.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "resources.download.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "session.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "textures.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.minecraft.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.individual.githubcopilot.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -654,83 +1259,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "beam.sapphire.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "bitcash.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "blog.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "broth.itch.zone": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "bs.nakanohito.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "c10.patreonusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "c13.patreon.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "c14.patreon.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "c5.patreon.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "c8.patreon.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "camo.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "canary.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "canary.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn-canary.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn-ptb.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn.akamai.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn.boxicons.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn.cloudflare.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cdn.steamstatic.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -738,39 +1267,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "ch.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "chobit.cc": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ci-en.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ci-en.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "click.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "client-update.akamai.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "client-update.fastly.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "cloud.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cloudflarestorage.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -778,107 +1275,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "community.akamai.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "cs.nakanohito.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "d3019221e64a.w.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "desktop.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "deviantart.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "deviantart.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discord-attachments-uploads-prd.storage.googleapis.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discord.app": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "discordbot.nexusmods.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "dl.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "dl2.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "dlsite.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "docker.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "docker.io": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "docs.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "docs.docker.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "docs.itch.zone": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "download.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "e.deviantart.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "education.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "email.mg.deviantart.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "external-accounts.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -886,51 +1283,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "feedback.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gameplay.gog.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gamesdb.gog.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gapis.geekzu.org": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gateway-cf.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gateway-us-east1-b.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gateway-us-east1-c.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gateway-us-east1-d.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gateway.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gelbanana.jaststore.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "gist.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gitgud.io": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -966,10 +1319,6 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "github.dev": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "github.githubassets.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
@@ -990,151 +1339,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "gitlab.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "google.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gstatic.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "gstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "hcaptcha-assets.ecosec.on.epicgames.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "help.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "help.steampowered.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "hub.docker.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "i.deviantart.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "i.ytimg.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "i18n.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "i18n.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "images-ext-1.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "images-ext-2.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "img.dlsite.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "img.itch.zone": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "imgs.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "imgs2.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "imgs3.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "index.docker.io": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "insights-collector.gog.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "itch.io": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "itch.zone": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "jaststore.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "js.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "latency.discord.media": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "launcher.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "launchercontent.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "launchermeta.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "libraries.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "live.github.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "login.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "login.docker.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "media.ci-en.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "media.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "media.dlsite.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -1142,75 +1347,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "media.steampowered.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "merch.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "minecraft-api.arkoselabs.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "miyuki.jast.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "nakanohito.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "new-sentry.gitlab.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "newassets.hcaptcha.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "nijiyome.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "nijiyome.jp": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "objects.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "openrouter.ai": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "parastorage.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "patreon.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "pax.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "pax.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "payments.realms.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "pc.realms.minecraft.net": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -1218,203 +1355,7 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "piston-data.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "piston-meta.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "play.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "pocket.realms.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "printer.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "printer.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "private-user-images.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ptb.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ptb.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ptb.dl2.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "raw.githubusercontent.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "recaptcha.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "redstone-launcher.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "registry-1.docker.io": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "registry.hub.docker.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "remote-auth-gateway.discord.gg": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "remote-config.gog.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "repo.steampowered.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "resources.download.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "sapphire.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "session.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "sessionserver.mojang.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "ssl.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "st.deviantart.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "stable.dl2.discordapp.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "static.itch.io": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "static.parastorage.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "static2.cdn.Ubi.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "static3.cdn.Ubi.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "status.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "status.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "status.sapphire.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "steam-chat.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "steamcdn-a.akamaihd.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "steamcommunity.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "store.akamai.steamstatic.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "store.steampowered.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "streamkit.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "streamkit.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "support-dev.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "support.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "t00.deviantart.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "textures.minecraft.net": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "trial.dlsite.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "u.servers.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "umami.servers.moe": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "updates.discord.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "url7195.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "url9177.discordapp.com": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "url9624.discordapp.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -1426,15 +1367,115 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.deviantart.com": {
+    "education.github.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.dlsite.com": {
+    "private-user-images.githubusercontent.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.gog.com": {
+    "github.dev": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "steamcommunity.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.steamcommunity.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "store.steampowered.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.steampowered.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "help.steampowered.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "store.akamai.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "steamcdn-a.akamaihd.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn.akamai.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "steam-chat.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "community.akamai.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "repo.steampowered.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "media.steampowered.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "client-update.akamai.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "client-update.fastly.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn.cloudflare.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cdn.steamstatic.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docker.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "hub.docker.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docs.docker.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "login.docker.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "registry.hub.docker.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "docker.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "registry-1.docker.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "index.docker.io": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "auth.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
@@ -1442,31 +1483,35 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.hcaptcha.com": {
+    "remote-config.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.minecraft.net": {
+    "insights-collector.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.nijiyome.com": {
+    "gameplay.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.nijiyome.jp": {
+    "gamesdb.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.patreon.com": {
+    "external-accounts.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.recaptcha.net": {
+    "www.gog.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.steamcommunity.com": {
+    "static3.cdn.Ubi.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "static2.cdn.Ubi.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     }

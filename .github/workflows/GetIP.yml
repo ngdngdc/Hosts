@@ -36,32 +36,47 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set up environment
         run: |
-          sudo apt-get update && sudo apt-get install -y dnsutils jq
+          sudo apt-get update && sudo apt-get install -y dnsutils jq curl
+          echo "== Version check =="
+          bash --version | head -1
+          jq --version
+          dig -v | head -1
+          curl --version | head -1
 
       # Run the standalone script to generate hosts from Domains.json
+      - name: Generate Domains_Remote.json from remote hosts files
+        run: |
+          chmod +x FetchRemoteDomains.sh
+          ./FetchRemoteDomains.sh Domains_Remote.json
+
       - name: Generate annotated hosts file with both IPv6 and IPv4
         run: |
-          chmod +x GetIP.sh
-          ./GetIP.sh Domains.json hosts
-
-      - name: Merge hosts with upstream sources
-        run: |
-          chmod +x MergeHosts.sh
-          ./MergeHosts.sh
+          chmod +x BuildHosts.sh
+          ./BuildHosts.sh Domains.json Domains_Remote.json hosts_520_Clov
 
       - name: Generate lumine config file
         run: |
-          chmod +x MergeConfig.sh
-          ./MergeConfig.sh hosts_520_Clov
+          chmod +x BuildConfig.sh
+          ./BuildConfig.sh Domains.json Domains_Remote.json config_default.json config_ngdngdc.json
+
+      - name: Self check
+        run: |
+          set -euo pipefail
+          jq empty Domains_Remote.json && echo "✓ Domains_Remote.json"
+          jq empty config_ngdngdc.json && echo "✓ config_ngdngdc.json"
+          echo "hosts_520_Clov lines: $(wc -l < hosts_520_Clov)"
+          echo "Remote domains: $(jq '[.[] | length] | add' Domains_Remote.json)"
+          echo "domain_policies: $(jq '.domain_policies | length' config_ngdngdc.json)"
+          test "$(jq '[.[] | length] | add' Domains_Remote.json)" -gt 0
 
       - name: Commit hosts file to repository
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if git diff --quiet --exit-code hosts hosts_520_Clov config_ngdngdc.json; then
+          if git diff --quiet --exit-code Domains_Remote.json hosts_520_Clov config_ngdngdc.json; then
             echo "No changes to hosts file"
             exit 0
           fi
-          git add hosts hosts_520_Clov config_ngdngdc.json
+          git add Domains_Remote.json hosts_520_Clov config_ngdngdc.json
           git commit -m "Update hosts file - $(date +'%Y-%m-%d %H:%M:%S')"
           git push

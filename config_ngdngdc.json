@@ -623,6 +623,34 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "login.vivionid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "vivionid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img.comipo.app": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "media.vivion-bcs.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "vivion-bcs.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.comipo.app": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "comipo.app": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "i.ytimg.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

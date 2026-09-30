@@ -199,5 +199,23 @@
         "session.minecraft.net",
         "textures.minecraft.net",
         "www.minecraft.net"
+    ],
+    "Group12_Comics": [
+        "picaapi.picacomic.com",
+        "picaapi.go2778.com",
+        "img.picacomic.com",
+        "s3.picacomic.com",
+        "storage1.picacomic.com",
+        "storage-b.picacomic.com",
+        "storage.diwodiwo.xyz",
+        "storage-b.diwodiwo.xyz",
+        "rup4a04-c02.tos-cn-hongkong.bytepluses.com",
+        "rup4a04-c01.tos-ap-southeast-1.bytepluses.com",
+        "cdn-msp3.jmdanjonproxy.vip",
+        "www.cdnhjk.net",
+        "www.cdngwc.cc",
+        "www.cdngwc.net",
+        "www.cdngwc.club",
+        "www.cdnutc.me"
     ]
 }

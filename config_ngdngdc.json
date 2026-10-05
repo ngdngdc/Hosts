@@ -1145,6 +1145,14 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "challenges.cloudflare.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cloudflare.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "bitcash.jp": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

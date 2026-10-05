@@ -129,7 +129,9 @@
         "imgs3.hcaptcha.com",
         "js.hcaptcha.com",
         "newassets.hcaptcha.com",
-        "www.hcaptcha.com"
+        "www.hcaptcha.com",
+        "challenges.cloudflare.com",
+        "cloudflare.com"
     ],
     "Group6_BitCash": [
         "bitcash.jp",

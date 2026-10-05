@@ -1149,6 +1149,14 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "brunhild.challenges.cloudflare.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.cloudflare.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "cloudflare.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
@@ -1434,6 +1442,18 @@
       "dns_mode": "prefer_ipv6"
     },
     "www.cdnutc.me": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.loverslab.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "static.loverslab.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "go.loverslab.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },

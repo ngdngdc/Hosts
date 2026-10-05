@@ -131,6 +131,8 @@
         "newassets.hcaptcha.com",
         "www.hcaptcha.com",
         "challenges.cloudflare.com",
+        "brunhild.challenges.cloudflare.com",
+        "www.cloudflare.com",
         "cloudflare.com"
     ],
     "Group6_BitCash": [
@@ -219,5 +221,10 @@
         "www.cdngwc.net",
         "www.cdngwc.club",
         "www.cdnutc.me"
+    ],
+    "Group13_Loverslab": [
+        "www.loverslab.com",
+        "static.loverslab.com",
+        "go.loverslab.com"
     ]
 }

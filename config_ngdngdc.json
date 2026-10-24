@@ -1744,6 +1744,558 @@
     "static2.cdn.Ubi.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
+    },
+    "a.pixiv.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "accounts.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ads.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "alterna.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.booth.pm": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "api.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "app-api.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "asset.booth.pm": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "b.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "blog.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "books.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "booth.pm": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "booth.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "bungei.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "chat.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "chatstory.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cheek.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "click.info.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "click.info.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cloud.info.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "cloud.info.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "coban.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "comic-api.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "comic-store-viewer.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "comic.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "comicstore.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "conference.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "d.pixiv.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dev-console.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dev.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "dic.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "embed.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "en.dic.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "engineering.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "errortrace.dev": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "factory.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "fanbox.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "feed.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gangan.pr-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gangan.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "genepixiv.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "goods.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "help.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "hub.vroid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "hug.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i-f.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i-ogp.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i1.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i2.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i3.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "i4.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "image.info.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "image.info.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imageflux.sakura.ad.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img-novel.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img-sketch.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img-sketch.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img01.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img02.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img03.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "img04.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imgaz.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imgsi1.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "imp.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "inside.pixiv.blog": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "inside.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "internship.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "iracon.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "kurofune.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "looker.ads.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "lovexxxboys.pr-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "m.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "manga.pixiv-app.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "market.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "meetup.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "mint.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ml.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "mylovestreet.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "novel.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ns1.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ns2.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "oauth.secure.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "p2.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "palcy.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "palcy.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "partnersprogram.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pastela.app": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pay.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "payment.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pedia.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv-bungei.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv-essay.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv-waengallery.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv-zingaro.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv.me": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixiv.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixivision.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixivpay.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pixon.ads-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "policies.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pool.pr.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "print.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "public-api.secure.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "public-img-comic.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "public.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "recruit.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "s.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "s2.booth.pm": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "sensei.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "sketch.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "source.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "spotlight.pics": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "ssl.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "studio.vroid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "tc-i.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "times.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "touch.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "view.info.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "view.info.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "visions.pr-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "vroid-hub.pximg.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "vroid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "vroid.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.ads-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.fanbox.cc": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixiv.co.jp": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixiv.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixiv.help": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixiv.me": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pixivision.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.pr-pixiv.net": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.spotlight.pics": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.vroid.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "zh.pixiv.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
     }
   }
 }

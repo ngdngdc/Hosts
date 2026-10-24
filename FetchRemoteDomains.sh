@@ -2,10 +2,10 @@
 #
 # FetchRemoteDomains.sh
 #
-# 作用：抓取 MergeHosts.sh 中用到的两个远程 hosts 源（GITHUB520_URL / STEAM_HOSTS_URL），
+# 作用：抓取 MergeHosts.sh 中用到的三个远程 hosts 源（GITHUB520_URL / STEAM_HOSTS_URL / PIXIV_HOSTS_URL），
 #       提取其中的域名，生成 Domains_Remote.json。
 #       文件格式与 Domains.json 保持一致：{ "分组名": ["域名", ...], ... }
-#       GitHub520 的域名排在前面，SteamHostSync 的域名排在后面。
+#       GitHub520 的域名排在前面，SteamHostSync 的域名排在后面，pixiv-hosts 的域名排在后面。
 #
 # 用法： ./FetchRemoteDomains.sh [输出文件]
 #        输出文件默认 Domains_Remote.json
@@ -13,8 +13,10 @@
 # 环境变量（可选覆盖）：
 #   GITHUB520_URL      GitHub520 hosts 地址
 #   STEAM_HOSTS_URL    SteamHostSync hosts 地址
+#   PIXIV_HOSTS_URL    pixiv-hosts hosts 地址
 #   GITHUB520_GROUP    第一个分组名（默认 Group1_GitHub520）
 #   STEAM_GROUP        第二个分组名（默认 Group2_SteamHostSync）
+#   PIXIV_GROUP        第三个分组名（默认 Group3_pixiv-hosts）
 #   GH_PROXY           GitHub 加速镜像前缀，如 https://ghproxy.top/。
 #                      设置后先走镜像，镜像失败自动回退直连；不设置则直接连接。
 #                      GitHub Actions 官方 runner 直连通常没问题，自托管 runner
@@ -33,8 +35,10 @@ fi
 
 GITHUB520_URL="${GITHUB520_URL:-https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts}"
 STEAM_HOSTS_URL="${STEAM_HOSTS_URL:-https://raw.githubusercontent.com/Clov614/SteamHostSync/refs/heads/main/Hosts}"
+PIXIV_HOSTS_URL="${PIXIV_HOSTS_URL:-https://raw.githubusercontent.com/Leakless/pixiv-hosts/refs/heads/master/pixiv-hosts}"
 GITHUB520_GROUP="${GITHUB520_GROUP:-Group1_GitHub520}"
 STEAM_GROUP="${STEAM_GROUP:-Group2_SteamHostSync}"
+PIXIV_GROUP="${PIXIV_GROUP:-Group3_pixiv-hosts}"
 
 # ---------------------------------------------------------------- 环境自检
 if [[ -z "${BASH_VERSINFO:-}" || "${BASH_VERSINFO:-0}" -lt 4 ]]; then
@@ -56,8 +60,10 @@ trap 'rm -rf "$TMP_DIR"' EXIT
 
 GH_HOSTS="$TMP_DIR/github520.hosts"
 ST_HOSTS="$TMP_DIR/steam.hosts"
+PX_HOSTS="$TMP_DIR/pixiv.hosts"
 : > "$GH_HOSTS"
 : > "$ST_HOSTS"
+: > "$PX_HOSTS"
 
 # ---------------------------------------------------------------- 下载远程 hosts
 # curl 通用选项：--retry-all-errors 需 curl 7.71+，老版本上自动降级为普通重试
@@ -88,11 +94,13 @@ fetch_url() {
 
 gh_ok=0
 st_ok=0
+px_ok=0
 if fetch_url "$GITHUB520_URL" "$GH_HOSTS" "GitHub520 hosts"; then gh_ok=1; fi
 if fetch_url "$STEAM_HOSTS_URL" "$ST_HOSTS" "SteamHostSync hosts"; then st_ok=1; fi
+if fetch_url "$PIXIV_HOSTS_URL" "$PX_HOSTS" "pixiv-hosts hosts"; then px_ok=1; fi
 
-if (( gh_ok == 0 && st_ok == 0 )); then
-  echo "错误: 两个远程 hosts 均下载失败，终止" >&2
+if (( gh_ok == 0 && st_ok == 0 && px_ok == 0 )); then
+  echo "错误: 三个远程 hosts 均下载失败，终止" >&2
   exit 1
 fi
 
@@ -119,19 +127,23 @@ extract_domains() {
 
 GH_DOMAINS="$(extract_domains "$GH_HOSTS")"
 ST_DOMAINS="$(extract_domains "$ST_HOSTS")"
+PX_DOMAINS="$(extract_domains "$PX_HOSTS")"
 
 gh_count=$(printf '%s' "$GH_DOMAINS" | grep -c . || true)
 st_count=$(printf '%s' "$ST_DOMAINS" | grep -c . || true)
-echo "提取域名: $GITHUB520_GROUP = $gh_count 个, $STEAM_GROUP = $st_count 个" >&2
+px_count=$(printf '%s' "$PX_DOMAINS" | grep -c . || true)
+echo "提取域名: $GITHUB520_GROUP = $gh_count 个, $STEAM_GROUP = $st_count 个, $PIXIV_GROUP = $px_count 个" >&2
 
 # ---------------------------------------------------------------- 生成 JSON
 jq -n \
   --arg g1 "$GITHUB520_GROUP" --arg d1 "$GH_DOMAINS" \
-  --arg g2 "$STEAM_GROUP" --arg d2 "$ST_DOMAINS" '
+  --arg g2 "$STEAM_GROUP" --arg d2 "$ST_DOMAINS" \
+  --arg g3 "$PIXIV_GROUP" --arg d3 "$PX_DOMAINS" '
   def to_array: split("\n") | map(select(length > 0));
   {
     ($g1): ($d1 | to_array),
-    ($g2): ($d2 | to_array)
+    ($g2): ($d2 | to_array),
+    ($g3): ($d3 | to_array)
   }
 ' > "$OUTPUT_FILE"
 

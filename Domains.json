@@ -166,7 +166,7 @@
         "u.servers.moe",
         "status.sapphire.moe"
     ],
-    "Group9_Patreon": [
+    "Group10_Patreon": [
         "c14.patreon.com",
         "c13.patreon.com",
         "c8.patreon.com",
@@ -176,10 +176,10 @@
         "c10.patreonusercontent.com",
         "patreonusercontent.com"
     ],
-    "Group10_OpenRouter": [
+    "Group11_OpenRouter": [
         "openrouter.ai"
     ],
-    "Group11_Minecraft": [
+    "Group12_Minecraft": [
         "account.mojang.com",
         "api.mojang.com",
         "assets.mojang.com",
@@ -204,7 +204,7 @@
         "textures.minecraft.net",
         "www.minecraft.net"
     ],
-    "Group12_Comics": [
+    "Group13_Comics": [
         "picaapi.picacomic.com",
         "picaapi.go2778.com",
         "img.picacomic.com",
@@ -222,7 +222,7 @@
         "www.cdngwc.club",
         "www.cdnutc.me"
     ],
-    "Group13_Loverslab": [
+    "Group14_Loverslab": [
         "www.loverslab.com",
         "static.loverslab.com",
         "go.loverslab.com"

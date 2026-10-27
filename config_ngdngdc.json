@@ -1457,6 +1457,14 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "www.workbuddy.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "workbuddy.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "api.individual.githubcopilot.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

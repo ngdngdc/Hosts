@@ -1465,6 +1465,46 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "sg.tgalileo.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "tgalileo.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.codebuddy.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "codebuddy.ai": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.workbuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "workbuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.codebuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "tencent.sso.codebuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "sso.codebuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "codebuddy.cn": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "api.individual.githubcopilot.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

@@ -1505,6 +1505,22 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
+    "www.nexusmods.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "nexusmods.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "files.nexus-cdn.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "nexus-cdn.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
     "api.individual.githubcopilot.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"

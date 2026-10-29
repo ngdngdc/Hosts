@@ -240,5 +240,11 @@
         "tencent.sso.codebuddy.cn",
         "sso.codebuddy.cn",
         "codebuddy.cn"
+    ],
+    "Group16_NexusMods": [
+        "www.nexusmods.com",
+        "nexusmods.com",
+        "files.nexus-cdn.com",
+        "nexus-cdn.com"
     ]
 }

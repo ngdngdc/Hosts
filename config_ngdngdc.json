@@ -1481,30 +1481,6 @@
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },
-    "www.workbuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "workbuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "www.codebuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "tencent.sso.codebuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "sso.codebuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
-    "codebuddy.cn": {
-      "mode": "tls-rf",
-      "dns_mode": "prefer_ipv6"
-    },
     "www.nexusmods.com": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
@@ -1518,6 +1494,70 @@
       "dns_mode": "prefer_ipv6"
     },
     "nexus-cdn.com": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "wiki.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "bbs.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "aur.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gitlab.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "lists.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "man.archlinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.archlinuxcn.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "wiki.archlinuxcn.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "repo.archlinuxcn.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "build.archlinuxcn.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "archlinuxcn.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "alpinelinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "pkgs.alpinelinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "gitlab.alpinelinux.org": {
+      "mode": "tls-rf",
+      "dns_mode": "prefer_ipv6"
+    },
+    "www.alpinelinux.org": {
       "mode": "tls-rf",
       "dns_mode": "prefer_ipv6"
     },

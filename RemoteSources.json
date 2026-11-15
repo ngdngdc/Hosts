@@ -1,0 +1,25 @@
+{
+  "comment": "远程 hosts 源清单。sources 数组顺序即 Domains_Remote.json 的分组顺序；新增、删除或停用源只需修改本文件，无需改动脚本。字段说明见 FetchRemoteDomains.sh 头部注释。",
+  "proxy": "",
+  "proxy_hint": "GitHub 加速镜像前缀，例如 https://gh-proxy.org/；留空表示直连。环境变量 GH_PROXY 可临时覆盖（设为空字符串可强制直连），镜像失败会自动回退直连。",
+  "sources": [
+    {
+      "group": "Group1_GitHub520",
+      "name": "GitHub520 hosts",
+      "url": "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
+      "enabled": true
+    },
+    {
+      "group": "Group2_SteamHostSync",
+      "name": "SteamHostSync hosts",
+      "url": "https://raw.githubusercontent.com/Clov614/SteamHostSync/refs/heads/main/Hosts",
+      "enabled": true
+    },
+    {
+      "group": "Group3_pixiv-hosts",
+      "name": "pixiv-hosts hosts",
+      "url": "https://raw.githubusercontent.com/Leakless/pixiv-hosts/refs/heads/master/pixiv-hosts",
+      "enabled": true
+    }
+  ]
+}

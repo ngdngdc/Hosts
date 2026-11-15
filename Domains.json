@@ -233,18 +233,31 @@
         "sg.tgalileo.com",
         "tgalileo.com",
         "www.codebuddy.ai",
-        "codebuddy.ai",
-        "www.workbuddy.cn",
-        "workbuddy.cn",
-        "www.codebuddy.cn",
-        "tencent.sso.codebuddy.cn",
-        "sso.codebuddy.cn",
-        "codebuddy.cn"
+        "codebuddy.ai"
     ],
     "Group16_NexusMods": [
         "www.nexusmods.com",
         "nexusmods.com",
         "files.nexus-cdn.com",
         "nexus-cdn.com"
+    ],
+    "Group17_Distros": [
+        "archlinux.org",
+        "wiki.archlinux.org",
+        "bbs.archlinux.org",
+        "aur.archlinux.org",
+        "gitlab.archlinux.org",
+        "lists.archlinux.org",
+        "man.archlinux.org",
+        "www.archlinuxcn.org",
+        "wiki.archlinuxcn.org",
+        "repo.archlinuxcn.org",
+        "build.archlinuxcn.org",
+        "archlinuxcn.org",
+        "alpinelinux.org",
+        "pkgs.alpinelinux.org",
+        "gitlab.alpinelinux.org",
+        "www.alpinelinux.org"
     ]
+
 }

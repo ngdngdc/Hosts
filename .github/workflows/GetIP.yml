@@ -44,10 +44,11 @@ jobs:
           curl --version | head -1
 
       # Run the standalone script to generate hosts from Domains.json
+      # 远程源清单在 RemoteSources.json，增删源只需改该文件
       - name: Generate Domains_Remote.json from remote hosts files
         run: |
           chmod +x FetchRemoteDomains.sh
-          ./FetchRemoteDomains.sh Domains_Remote.json
+          ./FetchRemoteDomains.sh Domains_Remote.json RemoteSources.json
 
       - name: Generate annotated hosts file with both IPv6 and IPv4
         run: |
